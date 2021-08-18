@@ -2,6 +2,7 @@ package com.reactnativebip32
 
 import android.net.Network
 import android.text.TextUtils
+import android.util.Log
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
@@ -40,8 +41,10 @@ class Bip32Module(reactContext: ReactApplicationContext?) : ReactContextBaseJava
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
-  fun sign(seed: String, network: Network?, path: String?): String {
+  fun sign(seed: String, network: String, path: String?): String {
+    Log.d("TEST", "${seed}")
     val seedByte = seed.toByteArray()
+    Log.d("TEST", "${seedByte}")
     //        ExtendedPrivateKey key = ExtendedPrivateKey.fromSeed(seedByte, network);
 
     return "1243";

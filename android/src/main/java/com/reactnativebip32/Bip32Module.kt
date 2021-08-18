@@ -1,13 +1,15 @@
 package com.reactnativebip32
 
-import android.net.Network
-import android.text.TextUtils
 import android.util.Log
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.module.annotations.ReactModule
-import com.reactnativebip32.Bip32Module
+import io.github.novacrypto.bip32.ExtendedPrivateKey
+import io.github.novacrypto.bip32.ExtendedPublicKey
+import io.github.novacrypto.bip32.Network
+import io.github.novacrypto.bip32.networks.Bitcoin
+
 
 @ReactModule(name = Bip32Module.NAME)
 class Bip32Module(reactContext: ReactApplicationContext?) : ReactContextBaseJavaModule(reactContext) {
@@ -41,12 +43,14 @@ class Bip32Module(reactContext: ReactApplicationContext?) : ReactContextBaseJava
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
-  fun sign(seed: String, network: String, path: String?): String {
+  fun sign(seed: String, network: Network, path: String?): ExtendedPublicKey? {
     Log.d("TEST", "${seed}")
     val seedByte = seed.toByteArray()
-    Log.d("TEST", "${seedByte}")
-    //        ExtendedPrivateKey key = ExtendedPrivateKey.fromSeed(seedByte, network);
 
-    return "1243";
+    val key = ExtendedPrivateKey.fromSeed(seedByte, network)
+    val child = key.derive("m/0'/0")
+    val childPub = child.neuter()
+
+    return childPub
   }
 }

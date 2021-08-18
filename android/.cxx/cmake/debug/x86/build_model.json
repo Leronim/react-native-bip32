@@ -13,8 +13,8 @@
       "buildSystem": "CMAKE",
       "compilerSettingsCacheFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx",
       "cxxFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx",
-      "ndkFolder": "/Users/leronim/Library/Android/sdk/ndk/23.0.7123448",
-      "ndkVersion": "23.0.7123448-rc1",
+      "ndkFolder": "/Users/leronim/Library/Android/sdk/ndk/23.0.7599858",
+      "ndkVersion": "23.0.7599858",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",

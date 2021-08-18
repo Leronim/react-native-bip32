@@ -1,0 +1,3 @@
+/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cpp.dir

@@ -18,13 +18,13 @@
 ANDROID_ABI:UNINITIALIZED=x86
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448
+ANDROID_NDK:UNINITIALIZED=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858
 
 //No help, variable specified on the command line.
 ANDROID_PLATFORM:UNINITIALIZED=android-16
 
 //Archiver
-CMAKE_AR:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+CMAKE_AR:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
 
 //Flags used by the compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -135,7 +135,7 @@ CMAKE_OBJDUMP:FILEPATH=CMAKE_OBJDUMP-NOTFOUND
 CMAKE_PROJECT_NAME:STATIC=Project
 
 //Ranlib
-CMAKE_RANLIB:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib
+CMAKE_RANLIB:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -175,10 +175,10 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Strip
-CMAKE_STRIP:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip
+CMAKE_STRIP:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/build/cmake/android.toolchain.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console

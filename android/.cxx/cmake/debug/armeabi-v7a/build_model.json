@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/leronim/Project/react-native-bip32/example/android",
+      "sdkFolder": "/Users/leronim/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/leronim/Project/react-native-bip32/android/build/intermediates",
+      "gradleModulePathName": ":reactnativebip32",
+      "moduleRootFolder": "/Users/leronim/Project/react-native-bip32/android",
+      "makeFile": "/Users/leronim/Project/react-native-bip32/android/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/leronim/Project/react-native-bip32/example/android/.cxx",
+      "cxxFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx",
+      "ndkFolder": "/Users/leronim/Library/Android/sdk/ndk/23.0.7599858",
+      "ndkVersion": "23.0.7599858",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-O2 -frtti -fexceptions -Wall -fstack-protector-all"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/leronim/Project/react-native-bip32/android/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/leronim/Project/react-native-bip32/android/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/leronim/Project/react-native-bip32/android/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

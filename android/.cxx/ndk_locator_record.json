@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/leronim/Library/Android/sdk/ndk/23.0.7123448",
+  "ndkFolder": "/Users/leronim/Library/Android/sdk/ndk/23.0.7599858",
   "messages": [
     {
       "level": "INFO",
@@ -27,6 +27,10 @@
     },
     {
       "level": "INFO",
+      "message": "Considering /Users/leronim/Library/Android/sdk/ndk/23.0.7599858 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
       "message": "Considering /Users/leronim/Library/Android/sdk/ndk/21.1.6352462 in SDK ndk folder"
     },
     {
@@ -39,7 +43,7 @@
     },
     {
       "level": "INFO",
-      "message": "No user requested version, choosing /Users/leronim/Library/Android/sdk/ndk/23.0.7123448 which is version 23.0.7123448-rc1"
+      "message": "No user requested version, choosing /Users/leronim/Library/Android/sdk/ndk/23.0.7599858 which is version 23.0.7599858"
     }
   ]
 }

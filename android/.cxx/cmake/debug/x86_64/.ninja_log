@@ -1,0 +1,4 @@
+# ninja log v5
+0	26	0	CMakeFiles/cpp.dir/Users/leronim/Project/react-native-bip32/cpp/example.cpp.o	640427799b84fe1d
+1	41	0	CMakeFiles/cpp.dir/cpp-adapter.cpp.o	603823dd91d7ee1d
+41	78	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libcpp.so	587e4af9aaa47e3b

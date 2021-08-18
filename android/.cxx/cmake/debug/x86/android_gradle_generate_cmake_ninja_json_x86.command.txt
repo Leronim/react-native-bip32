@@ -6,9 +6,9 @@ arguments :
 -DANDROID_PLATFORM=android-16
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/leronim/Project/react-native-bip32/android/build/intermediates/cmake/debug/obj/x86
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448
+-DANDROID_NDK=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858
 -DCMAKE_CXX_FLAGS=-O2 -frtti -fexceptions -Wall -fstack-protector-all
--DCMAKE_TOOLCHAIN_FILE=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/build/cmake/android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=/Users/leronim/Library/Android/sdk/ndk/23.0.7599858/build/cmake/android.toolchain.cmake
 -DCMAKE_MAKE_PROGRAM=/Users/leronim/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
 -GAndroid Gradle - Ninja
 jvmArgs : 

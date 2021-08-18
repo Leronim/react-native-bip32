@@ -4,15 +4,13 @@ import { StyleSheet, View, Text } from 'react-native';
 import Bip32 from 'react-native-bip32';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   React.useEffect(() => {
-    Bip32.multiply(3, 7).then(setResult);
+    Bip32.sign('123', '312');
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>123</Text>
     </View>
   );
 }

@@ -40,8 +40,10 @@ class Bip32Module(reactContext: ReactApplicationContext?) : ReactContextBaseJava
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
-  fun sign(seed: String, network: Network?, path: String?) {
+  fun sign(seed: String, network: Network?, path: String?): String {
     val seedByte = seed.toByteArray()
     //        ExtendedPrivateKey key = ExtendedPrivateKey.fromSeed(seedByte, network);
+
+    return "1243";
   }
 }

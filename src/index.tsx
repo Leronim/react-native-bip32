@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
 
 type Bip32Type = {
-  multiply(a: number, b: number): Promise<number>;
+  sign(seed: string, network: string, path?: string): string;
 };
 
 const { Bip32 } = NativeModules;

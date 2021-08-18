@@ -1,5 +1,6 @@
 buildscript {
-    if (project == rootProject) {
+  ext.kotlin_version = '1.5.30-RC'
+  if (project == rootProject) {
         repositories {
             google()
             jcenter()
@@ -9,9 +10,17 @@ buildscript {
             classpath 'com.android.tools.build:gradle:3.5.3'
         }
     }
+  repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    mavenCentral()
+  }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+  }
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
@@ -63,9 +72,15 @@ repositories {
     }
     google()
     jcenter()
+    maven {
+      url 'https://dl.bintray.com/novacrypto/BIP/'
+    }
+  maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
 }
 
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+  implementation 'io.github.novacrypto:BIP32:2019.01.27'
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

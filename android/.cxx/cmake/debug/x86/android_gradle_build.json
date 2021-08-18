@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "/Users/leronim/Project/react-native-bip32/android/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/leronim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"cpp-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "cpp",
+			"buildCommand" : "/Users/leronim/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/x86 --target cpp",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcpp_EXPORTS -I../../../../../cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "/Users/leronim/Project/react-native-bip32/cpp/example.cpp",
+					"workingDirectory" : "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcpp_EXPORTS -I../../../../../cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -frtti -fexceptions -Wall -fstack-protector-all -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11  -c ",
+					"src" : "/Users/leronim/Project/react-native-bip32/android/cpp-adapter.cpp",
+					"workingDirectory" : "/Users/leronim/Project/react-native-bip32/android/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/leronim/Project/react-native-bip32/android/build/intermediates/cmake/debug/obj/x86/libcpp.so",
+			"toolchain" : "18298497637356347411"
+		}
+	},
+	"toolchains" : 
+	{
+		"18298497637356347411" : 
+		{
+			"cCompilerExecutable" : "/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/leronim/Library/Android/sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
